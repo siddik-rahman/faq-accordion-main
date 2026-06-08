@@ -1,3 +1,15 @@
 
 @import "tailwindcss";
 
+.top-bg {
+  background-image: url("/faq-accordion-main/images/background-pattern-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .top-bg {
+    background-image: url("/faq-accordion-main/images/background-pattern-desktop.svg");
+  }
+}
