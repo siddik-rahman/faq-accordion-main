@@ -1,13 +1,7 @@
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
+import { defineConfig } from "vite";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
+  base: "/faq-accordion-main/",
   plugins: [tailwindcss()],
- theme: {
-  extend: {
-    fontFamily: {
-      sans: ['Work Sans', 'sans-serif'],
-    },
-  },
-},
-})
+});
